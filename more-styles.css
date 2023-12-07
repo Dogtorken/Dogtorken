@@ -1,0 +1,53 @@
+p{
+    font-family: arial;
+}
+.supercharged{
+    text-align: center;
+    width: 300px;
+}
+
+.red{
+    color: red;
+    font-size: 10px;
+}
+
+.macbook{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bold-font{
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.gray{
+    color: gray;
+    font-size: 12px;
+}
+
+.buy{
+    cursor: pointer;
+    background-color: rgb(62, 62, 174);
+    color: white;
+    font-size: 10px;
+    border: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 16px;
+}
+
+.profile-name{
+    font-weight: bold;
+}
+
+.username{
+    color: gray;
+}
+
+.another-username{
+    cursor: pointer;
+    color: rgb(77, 77, 220);
+}

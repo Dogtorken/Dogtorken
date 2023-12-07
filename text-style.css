@@ -1,0 +1,73 @@
+.tahoma{
+    font-family: Tahoma;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.arial{
+    font-family: arial;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.arial_italics-red{
+    font-family: arial;
+    color: red;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+.arial-apple{
+    font-family: arial;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    width: 350px;
+
+}
+
+.help{
+    font-size: 15px;
+    font-weight: normal;
+    width: 200px;
+
+}
+
+.website-sky_blue{
+    font-size: 15px;
+    font-weight: normal;
+    color: rgb(5, 79, 109);
+    cursor: pointer;
+}
+
+.website-sky_blue:hover{
+    text-decoration: underline;
+}
+.verdana{
+    font-family: verdana;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.verdana-gray{
+    color: gray;
+    margin-top: 0px;
+}
+
+.content{
+    font-style: verdana;
+    width: 240px;
+}
+.verdana-button{
+    background-color: green;
+    color: white;
+    font-family: verdana;
+    border-radius: 4px;
+    border: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
