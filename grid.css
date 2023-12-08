@@ -1,0 +1,24 @@
+.two-columns{
+    display: grid;
+    grid-template-columns: 200px 75px;
+    margin-bottom: 10px;
+}
+.first, .col-1, .col-3{
+    background-color: lightblue;
+}
+.second, .col-2, .equal-columns{
+    background-color: pink;
+}
+
+.three-columns{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    margin-bottom: 10px;
+}
+
+.four-columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+}
