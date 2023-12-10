@@ -1,0 +1,40 @@
+.items{
+    display: flex;
+    height: 70px;
+    margin-bottom: 100px;
+}
+
+.one{
+    display: flex;
+    background-color: lightblue;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div-one{
+    background-color: black;
+    color: white;
+}
+
+.two{
+    background-color: lightpink;
+    width: 200px;
+}
+
+.nested-flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.row-two{
+    background-color: black;
+    color: white;
+}
+
+.row_two{
+    background-color: black;
+    color: white;
+}
