@@ -1,0 +1,16 @@
+.body{
+    background-color: white;
+    height: 3000px;
+    
+}
+
+.b-r{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+p{
+    background-color: black;
+    color: white;
+}
