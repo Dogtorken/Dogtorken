@@ -1,0 +1,49 @@
+.suggested-friends{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-family: Roboto 700, arial;
+    font-size: 12px;
+}
+
+.profile-picture{
+    width: 60px;
+    margin-right: 30px;
+    margin: 10px;
+}
+
+.profile-photo{
+    width:100%;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.name{
+    justify-content: end;
+    flex: 1;
+}
+
+.profile-name{
+    font-family: Roboto 700;
+}
+
+.follow-button{
+    background-color: rgb(13, 124, 160);
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+}
+
+.profile-description{
+    color: gray;
+    margin-top: 5px;
+    
+}
+
+.profile-name{
+    margin-bottom: 5px;
+}

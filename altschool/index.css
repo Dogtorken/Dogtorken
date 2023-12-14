@@ -1,0 +1,155 @@
+
+
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 50px;
+    height: 60px;
+    z-index: 2;
+    padding-top: 20px;
+    
+}
+
+.school-logo{
+    padding-top: 10px;
+    width: 10%
+}
+
+.logo{
+    width: 100%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+.sidebar{
+    position: fixed;
+    top: 200px;
+    left: 30px;
+    bottom: 150px;
+    width: 300px;
+    background-color: white;
+}
+
+.student-photo{
+    display: flex;
+    justify-content: center;
+}
+.id-photo{
+    width: 185px;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(122, 202, 228);
+}
+
+.student-name{
+    display: flex;
+    justify-content: center;
+}
+.student-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(122, 202, 228);
+    border-radius: 4px;
+}
+
+.name, .designation, .school{
+    margin: 2px;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.designation, .school{
+    margin-left:50px;
+}
+.designation{
+    padding-left: 33px;
+    font-size: 12px;
+    color: rgb(77, 176, 209);
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.school{
+    margin-top: 30px;
+}
+
+p{
+    margin: 0px;
+}
+
+.id, .department, .track{
+    font-weight: 700;
+    line-height: 25px;
+}
+
+
+
+ul{
+    width:fit-content;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    padding-right: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover, a:focus{
+    color: dodgerblue;
+}
+
+a:active{
+    color: red
+    transition-duration: 0.15s;
+}
+
+body{
+    height: 1500px;
+}
+
+.p-one, .p-two, .p-three, .p-four, .p-five, .p-six, .p-seven{
+    line-height: 25px;
+    margin-bottom: 10px;
+    
+}
+
+.p-one{
+    font-weight: 700;
+    text-align: center;
+}
+
+.reason{
+    background-color: rgb(244, 239, 239);
+    margin-left: 450px;
+    padding-top: 150px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+}
+
+.footer{
+    padding-top: 100px;
+}
