@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Assignment</title>
+    <link rel="stylesheet" href="fig.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,500;8..144,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="div-body">
+        <!-- <img class="nav-bar" src="Nav bar.png" alt="navigation bar"> -->
+        <div class="description">
+            <img class="logo" src="Logo.png" alt="design logo">
+            <h1>For Individuals</h1>
+            <p>Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.</p>
+        </div>
+        <div class="form">
+            <form action="">
+                <div class="form-flex">
+                    <p class="fName">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" id="firstName" value="Tolu">
+                    </p>
+
+                    <p class="lName">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" id="lastName"  autocomplete="on" required >
+                    </p>
+                </div>
+
+                <div class="form-flex">
+                    <p class="sex">
+                        <label for="gender">Gender</label>
+                            <select name="gender" id="gender">
+                                <option>Select here</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="others">others</option>
+                            </select>
+                        </p>
+
+                        <p class="dob">
+                            <label for="birthday"> Date of Birth</label>
+                            <input class="dob-input" type="date" name="birthday" id="birthday" required>
+                        </p>
+                    </div>
+                    
+
+                    <div class="form-flex">
+                        <p class="size">
+                            <label for="weight">Weight (KG)</label>
+                            <input type="value" name="weight" id="weight" placeholder="Enter Weight" required>
+                        </p>
+    
+                        <p class="tall" >
+                            <labelfor="height">Height (CM)</labelfor=>
+                            <input type="value" name="height" id="height" placeholder="Enter height here" required>
+                        </p>
+                    </div>
+                
+
+                <p class="block">
+                    <label for="activityLevel">Activity Level</label> <br>
+                        <select class="cover" name="activityLevel" id="activityLevel">
+                            <option>Select here</option>
+                        </select>
+                </p>
+
+                <p>
+                    <label class="block" for="password">Password</label>
+                    <input class="cover" type="password">
+                </p>
+
+                <p class="register-button">
+                    <button type="submit">Register</button>
+                </p>
+
+                <p class="terms">By clicking continue, I agree to <a href="https://altschoolafrica.com/terms-and-conditions">Terms of Use</a> and acknowledge that I have read the <a href="https://altschoolafrica.com/privacy-policy">Privacy Policy.</a></p>
+                
+            </form>
+        </div>
+</body>
+</html>
