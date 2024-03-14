@@ -4,8 +4,8 @@ const app = express()
 const authorRouter = require('./authors')
 const logger = require('./logger')
 
-app.use("/authors", authorRouter)
 app.use(logger);
+app.use("/authors", authorRouter);
 
 
 
