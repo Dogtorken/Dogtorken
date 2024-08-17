@@ -5,8 +5,8 @@
 
 **Here's a quick summary about me**:
 
-- 💡 Fun fact: I'm currently studying at AltSchool Africa [School of Software Engineering](https://learn.altschoolafrica.com/software-engineering/) Class of 2024.
-- 🌱 I’m currently learning HTML, CSS, JavaScript, and Python.
+- 💡 Fun fact: Graduate of AltSchool Africa [School of Software Engineering](https://learn.altschoolafrica.com/software-engineering/).
+- 🌱 Stacks include HTML, CSS, JavaScript, and Python.
 - 😊 I’m looking for help with open source projects, hackathons, internships, and entry-level opportunities.
 - 💼 Job interests: Software Engineer, Backend Engineer (Intern or Junior level).
 - 📧 Contact me by emailing mailtocodewithkenward@gmail.com.
